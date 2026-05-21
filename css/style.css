@@ -621,19 +621,22 @@ svg { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-widt
 .contact-item > div > a {
   display: block;
   color: #fff;
-  font-family: var(--heading);
-  font-weight: 900;
-  font-size: clamp(1.55rem, 2.3vw, 2.05rem);
-  line-height: 1.02;
+  font-family: var(--body);
+  font-weight: 700;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.15;
   margin-top: 4px;
+  letter-spacing: .2px;
 }
 .contact-item > div {
   min-width: 0;
 }
 
 .contact-email-link {
-  font-size: clamp(1.1rem, 1.55vw, 1.4rem) !important;
-  line-height: 1.15 !important;
+  font-family: var(--body) !important;
+  font-weight: 700 !important;
+  font-size: clamp(1rem, 1.35vw, 1.2rem) !important;
+  line-height: 1.25 !important;
   overflow-wrap: anywhere;
   word-break: normal;
 }
