@@ -920,7 +920,10 @@ svg { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-widt
   .trust-grid article:first-child { border-top: 0; }
   .section { padding: 46px 0; }
   .section-heading h2 { font-size: 2.85rem; }
-  .service-card img { height: 210px; }
+  .service-card img {
+    aspect-ratio: 4 / 3;
+    height: auto;
+  }
   .about-section { padding: 48px 0 64px; }
   .about-visual { padding-bottom: 0; }
   .about-visual > img { min-height: 280px; }
